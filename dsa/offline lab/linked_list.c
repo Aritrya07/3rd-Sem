@@ -1,3 +1,6 @@
+/*
+Linked list insert and display
+*/
 #include<stdio.h>
 #include<stdlib.h>
 struct node
