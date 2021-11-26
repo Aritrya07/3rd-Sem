@@ -1,0 +1,9 @@
+Algorithm for Program 3:
+Step 1: Initialize a character stack named st
+Step 2: Enter the string
+Step 3: Traverse Through the expression running a loop from 0 to (length of string -1)
+Step 4: If we encounter a opening bracket (,[,{
+Step 4.1: push it inside the stack
+Step 5: if u encounter a number or operator ignore it
+Step 6: If the current character is a closing bracket (‘)’ or ‘}’ or ‘]’) then pop from stack and if the popped character is the matching starting bracket, then fine else brackets are not balanced.
+Step 7: if the stack is empty after complete traversal then the expression is balanced 
