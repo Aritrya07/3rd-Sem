@@ -255,7 +255,6 @@ void insert_pos()
 	p->link = NULL;
 	if(pos==1)
 	{
-		
 		p->link = start;
 		start = p;
 	}
